@@ -1,0 +1,10 @@
+# Go to the project directory 
+$ git init
+$ git add github_demo.txt	//or add. for all files
+$ git status			// to check if the file is added
+$ git config --global user.name "ttawfik"
+$ git config --global user.email "ntegypt@hotmail.com"
+$ git commit -m "my commit"	//-m "description message"
+$ git remote add origin https://ttawfik:Pa$$w0rd@github.com/ttawfik/demo_repo.git	//demo_repo created before on github
+$ git remote -v	//verifies the new remote URL
+$ git push origin master
